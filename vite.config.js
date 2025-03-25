@@ -13,6 +13,11 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    emptyOutDir: true
+    emptyOutDir: true,
+    base: '/',
+    sourcemap: true
+  },
+  server: {
+    port: 3000
   }
 })
