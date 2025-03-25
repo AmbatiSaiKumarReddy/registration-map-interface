@@ -9,7 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/$1"
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "VITE_PUBLIC_PATH": ""
+  }
 }
